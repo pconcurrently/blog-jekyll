@@ -5,6 +5,7 @@ feature-img: "assets/img/posts/cdn/cdn.png"
 thumbnail: "assets/img/posts/cdn/cdn.png"
 tags: [cloudflare, cdn, google-cloud, google-storage]
 ---
+![CDN](/assets/img/posts/cdn/cdn.png "CDN")
 
 ## CDN là gì?
 CDN là viết tắt của Content Delivery Network. Nói một cách đơn giản thì đây là nơi lưu trữ các file (các static asset) rồi được sử dụng bởi nhiều người dùng khác nhau. Bạn có thể google để biết thêm, còn đây là cách bạn có thể tạo cho mình một server CDN để host các file của mình.
