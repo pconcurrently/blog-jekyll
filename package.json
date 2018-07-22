@@ -1,0 +1,33 @@
+{
+  "name": "blog-jekyll",
+  "version": "1.0.0",
+  "description": "Pho Huynh - Personal Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shortgiraffe4/blog-jekyll.git"
+  },
+  "keywords": [
+    "jekyll",
+    "shortgiraffe4"
+  ],
+  "author": "Pho Huynh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shortgiraffe4/blog-jekyll/issues"
+  },
+  "homepage": "https://github.com/shortgiraffe4/blog-jekyll#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-less": "^3.5.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-shell": "^0.6.5",
+    "gulp-uglify": "^3.0.0"
+  }
+}
