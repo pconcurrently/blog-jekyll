@@ -14,7 +14,9 @@ CDN là viết tắt của Content Delivery Network. Nói một cách đơn gi�
 ##### 1. Đăng ký sử dụng miễn phí 1 năm Google Cloud với $300 credit
 
 Truy cập vào trang: https://console.cloud.google.com/freetrial để đăng ký với tài khoản Google của bạn.
+
 ![Google Cloud Free trial](/assets/img/posts/cdn/gc-freetrial.png "Google Cloud Free trial")
+
 Sau khi đăng ký thành công thì chúng ta đã có $300 để tiêu xài hoang phí rồi, nếu có vấn đề gì có thể liên hệ phụ huynh để giải quyết.
 
 ##### 2. Tạo bucket trên Google Storage
