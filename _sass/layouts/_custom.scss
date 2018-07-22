@@ -1,0 +1,7 @@
+.post-item {
+    padding: 10% 0 5% 0;
+    &:not(:first-child) {
+        padding-top: 5%;
+        border-top: 1px solid rgba(0,0,0,0.1);
+    }
+}
