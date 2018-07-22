@@ -19,5 +19,5 @@ _development_tool/*
 Gemfile.lock
 *.gem
 .gems
-jekyll-theme-type-on-strap.gemspec
+jekyll-theme-blog.gemspec
 node_modules/*

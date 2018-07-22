@@ -54,7 +54,7 @@ gulp.task("serve", function () {
     gutil.log('... Launching Web browser');
     gutil.log('... Starting Jelyll');
     shell.task([
-        "python -m webbrowser 'http://localhost:4000/Type-on-Strap/' && bundle exec jekyll serve --watch"
+        "python -m webbrowser 'http://localhost:4000/' && bundle exec jekyll serve --watch"
     ])
 });
 

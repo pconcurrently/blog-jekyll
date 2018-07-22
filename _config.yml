@@ -9,14 +9,14 @@ description: "Pho Huynh - Personal Blog" # used by search engines
 theme_settings:
   # Meta
   title: Po's Blog # blog's title
-  avatar: assets/img/triangle.svg
+  avatar: assets/img/pobeo.svg
   favicon: assets/favicon.ico
   gravatar: shortgiraffe4@gmail.com
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
      <p><code>Po Béo nè</code></p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  header_text_feature_image: assets/img/pexels/computer.jpeg
   footer_text: >
    <a href="https://phohuynh.com">My Portfolio</a>
 
@@ -59,7 +59,7 @@ theme_settings:
     email: true
 
   # Scripts / Features 
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: UA-122600677-2
   disqus_shortname: blog-phohuynh-com
   katex: true # Enable if using math markup
   
@@ -101,9 +101,9 @@ paginate_path: "page/page:num"
 
 # PORTFOLIO
 collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:name
 
 
 # BUILD SETTINGS
@@ -113,5 +113,5 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
-#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
+#theme: blog # Uncomment if using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "blog.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
