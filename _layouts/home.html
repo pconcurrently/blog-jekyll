@@ -3,16 +3,16 @@ layout: default
 ---
 
 <div class="home">
-  {% if site.theme_settings.header_text %}
+  <!-- {% if site.theme_settings.header_text %}
   <div id="main" class="call-out"
   style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
     {{ site.theme_settings.header_text }}
   </div>
-  {% endif %}
+  {% endif %} -->
 
   <div class="posts">
     {% for post in paginator.posts %}
-    <div class="post-teaser">
+    <div class="container post-item">
       {% if post.thumbnail %} 
       <div class="post-img">
          <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
