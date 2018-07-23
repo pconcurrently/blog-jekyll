@@ -3,7 +3,7 @@ layout: post
 title: Tạo server CDN với Google Cloud Storage và domain tùy chọn
 feature-img: "assets/img/posts/cdn/cdn.png"
 thumbnail: "assets/img/posts/cdn/cdn.png"
-tags: [cloudflare, cdn, google-cloud, google-storage]
+tags: [cloudflare, cdn, google-cloud, google-storage, guide]
 ---
 ![CDN](/assets/img/posts/cdn/cdn.png "CDN")
 
@@ -47,7 +47,7 @@ Hãy vào <https://console.cloud.google.com/storage/browser> sau đó bấm vào
 Bước thứ 3 này bạn cần phải sở hữu một domain, bạn có thể dễ dàng mua được một domain với giá khá rẻ trên <https://vn.godaddy.com/> . Bạn có thể lựa chọn những dịch vụ khác như <https://domains.google/> nhưng mình thấy Godaddy có giá khá ổn và có nhiều khuyến mãi nữa.
 
 Nếu bạn đã sở hữu một domain rồi thì hãy vào phấn cấu hình của domain, chọn _DNS setiings_, tạo một _CNAME_ record như sau:
-```javascript
+```ruby
     value: cdn
     target: c.storage.googleapis.com
 ```
