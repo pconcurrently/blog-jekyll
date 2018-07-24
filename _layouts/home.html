@@ -10,9 +10,9 @@ layout: default
   </div>
   {% endif %} -->
 
-  <div class="posts">
+  <div class="posts container">
     {% for post in paginator.posts %}
-    <div class="container post-item">
+    <div class="post-item">
       {% if post.thumbnail %} 
       <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="post-img">
@@ -32,10 +32,10 @@ layout: default
             </header>
             <div class="excerpt">
                 {{ post.excerpt | strip_html | escape }}
-              <!--{{ post.content | strip_html | truncate: "250" }}-->
-              <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              {{ post.content | strip_html | truncate: "250" }}
+              <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">
                 {{ site.theme_settings.str_continue_reading }}
-              </a>-->
+              </a>
             </div>
         </span>
       </a>
