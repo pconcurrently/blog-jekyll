@@ -5,11 +5,14 @@
         border-top: 1px solid rgba(0,0,0,0.1);
     }
 
-    span {
-        header {
-            text-align: center;
-            a {
+    header {
+        text-align: center;
+        a {
+            display: inline-block;
+            font-size: 24px;
+            @media (min-width: 992px) {
                 font-size: 33px;
+                line-height: 1.2;
             }
         }
     }

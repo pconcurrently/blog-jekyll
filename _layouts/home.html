@@ -14,29 +14,31 @@ layout: default
     {% for post in paginator.posts %}
     <div class="container post-item">
       {% if post.thumbnail %} 
-      <div class="post-img">
-         <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
-      </div>
-      {% endif %}
-      <span>
-          <header>
-            <h1>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}
-              </a>
-            </h1>
-            <p class="meta">
-              {{ post.date | date: "%B %-d, %Y" }}
-            </p>
-          </header>
-          <div class="excerpt">
-              {{ post.excerpt | strip_html | escape }}
-            <!--{{ post.content | strip_html | truncate: "250" }}-->
-            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
-              {{ site.theme_settings.str_continue_reading }}
-            </a>-->
-          </div>
-      </span>
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="post-img">
+          <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
+        </div>
+        {% endif %}
+        <span>
+            <header>
+              <h1>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                  {{ post.title }}
+                </a>
+              </h1>
+              <p class="meta">
+                {{ post.date | date: "%B %-d, %Y" }}
+              </p>
+            </header>
+            <div class="excerpt">
+                {{ post.excerpt | strip_html | escape }}
+              <!--{{ post.content | strip_html | truncate: "250" }}-->
+              <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
+                {{ site.theme_settings.str_continue_reading }}
+              </a>-->
+            </div>
+        </span>
+      </a>
     </div>
     {% endfor %}
   </div>

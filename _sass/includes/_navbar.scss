@@ -22,8 +22,8 @@
     }
 
     .avatar {
-        height: 3em;
-        width: 3em;
+        height: 4em;
+        width: 4em;
         float: left;
         margin-top: -13px;
         border-radius: 0.2em;
@@ -35,8 +35,14 @@
     .site-title {
         float: left;
         font-weight: bold;
-        font-size: 1em;
+        font-size: 1.5em;
         line-height: 1.5;
+
+        > a {
+            &:hover {
+                text-decoration: none;
+            }
+        }
     }
 
     nav {
