@@ -39,6 +39,7 @@
 
 // Post listing
 .posts {
+    margin-bottom: 60px;
     .post-teaser {
         @extend %padding-regular;
         width: 100%;
