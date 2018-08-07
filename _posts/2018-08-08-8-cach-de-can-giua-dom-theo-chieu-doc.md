@@ -4,6 +4,8 @@ title: 8 cách để căn giữa DOM theo chiều dọc
 feature-img: "assets/img/posts/vertical-centering/vertical-centering.jpg"
 thumbnail: "assets/img/posts/vertical-centering/vertical-centering.jpg"
 tags: [css, vertical-align, vertical-centering, guide]
+intro: "Đã bao nhiêu lần bạn đã thử dùng `vertical-align: middle;` để thử căn giữa một DOM theo chiều dọc? Mình thì ít nhất là chục lần!
+Thoạt nhìn thì có vẻ logic, nhưng loay hoay một lúc thì phát hiện nó chả hoạt động gì?!"
 ---
 ![Vertical Centering](/assets/img/posts/vertical-centering/vertical-centering.jpg "Vertical Centering")
 

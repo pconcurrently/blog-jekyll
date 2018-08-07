@@ -4,11 +4,18 @@ title: Webpack 4 từ cơ bản cho đến xây dựng project React cùng ES6 �
 feature-img: "assets/img/posts/webpack4/webpack4.jpg"
 thumbnail: "assets/img/posts/webpack4/webpack4.jpg"
 tags: [webpack, webpack4, huongdan, guide, react, es6]
+intro: "Ý tưởng nguyên thủy của Webpack là một module bundler, tức là một công cụ đóng gói module, như css, js. Nhưng với việc cộng đồng các developer trên thế giới với những đóng góp không ngừng nghỉ của mình đã làm phai nhạt ranh giới giữa một module bundler và task runner, điển hình như Gulp."
 ---
 ![Webpack 4](/assets/img/posts/webpack4/webpack4.jpg "Webpack 4")
 
 ## Giới thiệu về Webpack:
-CDN là viết tắt của Content Delivery Network. Nói một cách đơn giản thì đây là nơi lưu trữ các file (các static asset) rồi được sử dụng bởi nhiều người dùng khác nhau. Bạn có thể google để biết thêm, còn đây là cách bạn có thể tạo cho mình một server CDN để host các file của mình.
+Ý tưởng nguyên thủy của Webpack là một module bundler, tức là một công cụ đóng gói module, như css, js. Nhưng với việc cộng đồng các developer trên thế giới với những đóng góp không ngừng nghỉ của mình đã làm phai nhạt ranh giới giữa một module bundler và task runner, điển hình như Gulp.
+
+Qua gần 6 năm từ khi xuất hiện, Webpack đã được đón nhận như một công cụ không thể thiếu giúp cho viện phát triển web, mặc dù Webpack không giới hạn ở web. (Deport those who don't use Webpack!!!).
+
+Hiện tại Webpack đang ở phiên bản 4.16.2. Với sự phát triển và thay đổi khá nhanh của mình thì rất nhiều plugin/loader đã bị outdated nhưng không thể phủ nhận sự cải thiện mạnh mẽ của công cụ này.
+
+Hôm nay mình muốn giới thiệu về cách config Webpack 4 từ cơ bản cho đến xây dựng project React cùng ES6 để build production.
 
 ------------------------
 
