@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 8 cách để căn giữa DOM theo chiều dọc
+title: "CSS: 8 cách để căn giữa DOM theo chiều dọc"
 feature-img: "assets/img/posts/vertical-centering/vertical-centering.jpg"
 thumbnail: "assets/img/posts/vertical-centering/vertical-centering.jpg"
 tags: [css, vertical-align, vertical-centering, guide]
