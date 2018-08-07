@@ -9,9 +9,7 @@ tags: [webpack, webpack4, huongdan, guide, react, es6]
 
 ## Giới thiệu về Webpack:
 
-Ý tưởng nguyên thủy của Webpack là một module bundler, tức là một công cụ đóng gói module, như css, js. 
-
-Nhưng với việc cộng đồng các developer trên thế giới với những đóng góp không ngừng nghỉ của mình đã làm phai nhạt ranh giới giữa một module bundler và task runner, điển hình như Gulp.
+Ý tưởng nguyên thủy của Webpack là một module bundler, tức là một công cụ đóng gói module, như css, js. Nhưng với việc cộng đồng các developer trên thế giới với những đóng góp không ngừng nghỉ của mình đã làm phai nhạt ranh giới giữa một module bundler và task runner, điển hình như Gulp.
 
 Qua gần 6 năm từ khi xuất hiện, Webpack đã được đón nhận như một công cụ không thể thiếu giúp cho viện phát triển web, mặc dù Webpack không giới hạn ở web. (`Deport those who don't use Webpack!!!`).
 
