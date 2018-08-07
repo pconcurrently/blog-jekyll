@@ -151,14 +151,13 @@ a {
     text-decoration: none;
 }
 
-iframe,
 embed,
 object,
 video {
     max-width: 100%;
     padding: 0 10%;
 }
-img {
+img, iframe {
     max-width: 100%;
 }
 
