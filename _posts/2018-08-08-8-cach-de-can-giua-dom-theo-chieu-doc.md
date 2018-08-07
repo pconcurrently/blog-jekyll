@@ -16,6 +16,8 @@ Thực ra mình cũng đ** hiểu lắm và có vẻ nhiều dev khác cũng c�
 
 Hôm nay mình muốn cùng thử tất cả 8 cách (mà mình từng google và được biết) để giải quyết việc căn giữa theo chiều dọc một DOM.
 
+------------------------
+
 ## 1. line-height
 _Ghi nhớ là kỹ thuật này chỉ áp dụng cho **1 dòng text**_
 
@@ -59,6 +61,8 @@ Thường thì bạn không cần phải set _height_ của _child_ element vì 
 
 Với image bạn phải thêm 1 dòng `vertical-align: middle` nữa thì cách này mới hoạt động.
 
+------------------------
+
 ## 2. Table
 
 **html**
@@ -93,6 +97,8 @@ Chỉ có _#child_ là được căn giữa thôi nhé!
 
 **Kết quả:**
 <p data-height="300" data-theme-id="0" data-slug-hash="OwZGOp" data-default-tab="css,result" data-user="shortgiraffe4" data-pen-title="Table" class="codepen">See the Pen <a href="https://codepen.io/shortgiraffe4/pen/OwZGOp/">Table</a> by Pho Huynh (<a href="https://codepen.io/shortgiraffe4">@shortgiraffe4</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+------------------------
 
 ## 3. Positioning và stretch technique
 
@@ -134,6 +140,7 @@ Sau đó mình dùng kỹ thuật stretch, set lần lượt `top`, `right`, `bo
 **Kết quả:**
 <p data-height="265" data-theme-id="0" data-slug-hash="gjKwGM" data-default-tab="css,result" data-user="shortgiraffe4" data-pen-title="Positioning and stretch" class="codepen">See the Pen <a href="https://codepen.io/shortgiraffe4/pen/gjKwGM/">Positioning and stretch</a> by Pho Huynh (<a href="https://codepen.io/shortgiraffe4">@shortgiraffe4</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
+------------------------
 
 ## 4. Padding top và padding bottom bằng nhau
 
@@ -167,6 +174,8 @@ Vì chiều cao của của _#parent_ sẽ giãn ra tùy theo _#child_ và luôn
 Vậy nếu như chiều cao của _#parent_ không chỉ phụ thuộc vào một mình _#child_ thì sao? Vậy thì sẽ xảy ra 2 trường hợp:
 1. Biết trước chiều cao của _#parent_, vậy thì hãy tìm một số padding thích hợp để `height (của _#parent_) === padding-top + padding-bottom + height (của _#child_))`
 2. Chiều cao của _#parent_ không thể xác định được vì phụ thuộc vào chiều cao của một element khác, ví dụ _#child-2_. Vậy thì xác định là không dùng được cách này!
+
+------------------------
 
 ## 5. Dùng một div floater rỗng
 
@@ -210,6 +219,8 @@ Cách này, hmm, khá là "tricky", hãy thử với code sau:
 2 điều kiện để cách này hoạt động đó là phải có một div rỗng ở trước _#child_ và phải xác định được chiều cao của _#child_, sau đó set _margin-bottom_ của _#float_ bằng âm 1 nửa chiều cao của _#child_ (-1/2 height).
 
 _Về phần position và z-index mình chỉ làm cho các bạn nhìn rõ thôi chứ trong cách này chỉ cần #float rỗng là được._
+
+------------------------
 
 ## 6. Inline-block và pseudo element
 
@@ -255,6 +266,8 @@ Cách này mình cần tạo ra một _pseudo_ element (`::before`) với chiề
 
 _Note: width của #child chỉ có thể nhỏ hơn hoặc bằng 99% width của #parent, nếu không nó sẽ bị đẩy ra khỏi #parent._
 
+------------------------
+
 ## 7. Flex-box
 
 Những cách trên hầu hết là _hack_ để có thể căn giữa, nhưng _flex-box_ được sinh ra, mục đích của nó _có thể xem_ là muốn giải quyết vụ căn giữa này! 
@@ -291,7 +304,9 @@ Nhưng mà _flex-box_ có quá nhiều tính năng và hầu như là quá phứ
 
 Cách này hoạt động với _mọi kích thước_ của _#parent_ và _#child_, nhưng nó không hỗ trợ mọi trình duyệt, bạn có thể xem những trình duyệt hỗ trợ tại đây: <https://developer.mozilla.org/en-US/docs/Web/CSS/flex>.
 
-Còn đây là full guide của flexbox: <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+Còn đây là full guide của flexbox: <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>.
+
+------------------------
 
 ## 8. Grid
 

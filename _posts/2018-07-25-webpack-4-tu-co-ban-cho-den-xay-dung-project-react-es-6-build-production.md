@@ -13,7 +13,7 @@ tags: [webpack, webpack4, huongdan, guide, react, es6]
 
 Qua gần 6 năm từ khi xuất hiện, Webpack đã được đón nhận như một công cụ không thể thiếu giúp cho viện phát triển web, mặc dù Webpack không giới hạn ở web. (_Deport those who don't use Webpack!!!_).
 
-Hiện tại Webpack đang ở phiên bản `4.16.2`. Với sự phát triển và thay đổi khá nhanh của mình thì rất nhiều plugin/loader đã bị outdated nhưng không thể phủ nhận sự cải thiện mạnh mẽ của công cụ này.
+Hiện tại Webpack đang ở phiên bản _4.16.2_. Với sự phát triển và thay đổi khá nhanh của mình thì rất nhiều plugin/loader đã bị outdated nhưng không thể phủ nhận sự cải thiện mạnh mẽ của công cụ này.
 
 Hôm nay mình muốn giới thiệu về cách config Webpack 4 từ cơ bản cho đến xây dựng project React cùng ES6 để build production.
 
