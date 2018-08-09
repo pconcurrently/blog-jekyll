@@ -146,7 +146,7 @@ Sau đó mình dùng kỹ thuật stretch, set lần lượt `top`, `right`, `bo
 
 ## 4. Padding top và padding bottom bằng nhau
 
-Cách này hoạt động khá đơn giản nhưng yêu cầu khá...khắc khe một tí.
+Cách này hoạt động khá đơn giản nhưng yêu cầu khá...khắt khe một tí.
 
 Thử với code như sau: 
 
