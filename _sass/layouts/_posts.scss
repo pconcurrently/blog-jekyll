@@ -113,3 +113,18 @@ header {
         vertical-align: middle;
     }
 }
+
+.fb-comments-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+
+    .fb-comments {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}

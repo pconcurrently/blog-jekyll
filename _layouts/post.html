@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=239658500067618&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <!-- <header id="main" style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')"> -->
   <header id="main-2">
@@ -30,11 +38,12 @@ layout: default
 </article>
 
 <!-- Disqus -->
-{% if site.theme_settings.disqus_shortname %}
+<!-- {% if site.theme_settings.disqus_shortname %}
 <div class="comments">
   {% include disqus.html %}
 </div>
-{% endif %}
+{% endif %} -->
+{% include facebook.html %}
 
 <!-- Post navigation -->
 {% if site.theme_settings.post_navigation %}
