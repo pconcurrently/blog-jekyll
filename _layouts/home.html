@@ -31,7 +31,7 @@ layout: default
             <div class="excerpt">
                 <!-- {{ post.excerpt | strip_html | escape }}
               {{ post.content | strip_html | truncate: "280" }} -->
-              {{ post.intro || truncate: 250}}
+              {{ post.intro || truncate: "250"}}
               <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">
                 {{ site.theme_settings.str_continue_reading }}
               </a>
