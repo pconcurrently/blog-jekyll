@@ -104,7 +104,7 @@ Vào <https://console.cloud.google.com/compute/instances> và tìm VM mình đã
 
 ![VM IP](/assets/img/posts/proxy-gce/vm-ip-2.png "VM IP")
 
-Ở đây, IP của VM mình tạo là `33.231.58.151`. Bây giờ mình sẽ xài thử proxy này trên Firefox, với cài đặt như sau:
+Ở đây, IP của VM mình tạo là `35.231.58.151`. Bây giờ mình sẽ xài thử proxy này trên Firefox, với cài đặt như sau:
 
 ![Firefox proxy settings](/assets/img/posts/proxy-gce/firefox-proxy-settings.png "Firefox proxy settings")
 
