@@ -120,5 +120,7 @@ Mình phải nhắc lại một lần nữa vì nếu để VM chạy liên tụ
 
 
 #### Credits
+
 Tham khảo: <http://blog.antbytes.com/2016/11/28/how-to-set-up-a-proxy-server-on-google-compute-gce/>
+
 Hình: <http://hackers-workshop.net/hunting-open-proxy-servers-with-kali-linux>
