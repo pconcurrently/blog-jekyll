@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Tạo proxy server với Google Compute Engine (GCE)
-feature-img: "assets/img/posts/proxy-gce/proxy-2.png"
-thumbnail: "assets/img/posts/proxy-gce/proxy-2.png"
+feature-img: "assets/img/posts/proxy-gce/proxy-3.png"
+thumbnail: "assets/img/posts/proxy-gce/proxy-3.png"
 tags: [proxy, google-compute-engine, google-cloud, guide]
 intro: "Nếu bạn đọc bài này thì chắc cũng không cần phải được giải thích về proxy nữa. Mình sẽ hướng dẫn cách tạo một proxy server rồi dùng trên trình duyệt web với squid và Google Compute Engine của Google Cloud."
 ---
-![Proxy](/assets/img/posts/proxy-gce/proxy-2.png "Proxy")
+![Proxy](/assets/img/posts/proxy-gce/proxy-3.png "Proxy")
 
 ## Proxy là gì?
 Nếu bạn đọc bài này thì chắc cũng không cần phải được giải thích về proxy nữa. Mình sẽ hướng dẫn cách tạo một proxy server rồi dùng trên trình duyệt web với `squid` và `Google Compute Engine` của Google Cloud.
