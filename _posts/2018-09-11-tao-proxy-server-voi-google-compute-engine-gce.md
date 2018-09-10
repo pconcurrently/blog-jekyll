@@ -102,7 +102,7 @@ Setup đã xong, bây giờ mình chỉ cần lấy địa chỉ IP (external) c
 
 Vào <https://console.cloud.google.com/compute/instances> và tìm VM mình đã setup, copy địa chỉ IP nó ra:
 
-![VM IP](/assets/img/posts/proxy-gce/vm-ip.png "VM IP")
+![VM IP](/assets/img/posts/proxy-gce/vm-ip-2.png "VM IP")
 
 Ở đây, IP của VM mình tạo là `33.231.58.151`. Bây giờ mình sẽ xài thử proxy này trên Firefox, với cài đặt như sau:
 
